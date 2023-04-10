@@ -14,8 +14,8 @@ public class Main {
         DataHandler fileHandler = new DataHandler("Kullanıcılar.txt");
 
         //  Mail gönderebilmemiz için Google server API anahtarı çıkarttım kendi hesabıma, siz tercih ettiğiniz SMTP server bilgilerinizi bu değişkenlere girin
-        final String senderEmail = "enesbayraktutancagri@gmail.com";
-        final String password = "gjqooujrbikqheex";
+        final String senderEmail = "email";
+        final String password = "şifre";
         MailHandler mailHandler = new MailHandler(senderEmail, password, "smtp.gmail.com", "587");
         List<String> emailList;
 
